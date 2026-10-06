@@ -1,0 +1,72 @@
+{
+  "generated_at": "2026-10-02T11:36:41.098154+00:00",
+  "report_type": "executive_summary",
+  "source": "Materialized Views (daily_sales_summary & top_products_summary)",
+  "recent_daily_performance": [
+    {
+      "date": "2025-01-03",
+      "last_updated": "2026-10-02T11:07:22.164930+00:00",
+      "order_count": 155479,
+      "total_revenue": 40482395500.0,
+      "avg_order_value": 260372.11
+    },
+    {
+      "date": "2025-01-02",
+      "last_updated": "2026-10-01T23:15:16.900727+00:00",
+      "order_count": 180839,
+      "total_revenue": 47128214000.0,
+      "avg_order_value": 260608.69
+    },
+    {
+      "date": "2025-01-01",
+      "last_updated": "2026-10-01T22:45:01.032968+00:00",
+      "order_count": 113682,
+      "total_revenue": 29617799000.0,
+      "avg_order_value": 260532.0
+    }
+  ],
+  "top_revenue_products": [
+    {
+      "last_updated": "2026-10-02T11:07:55.555203+00:00",
+      "order_count": 150286,
+      "product_name": "هاتف سامسونج A54",
+      "sku": "SKU-1010",
+      "total_qty_sold": 300500,
+      "total_revenue": 66113210500.0
+    },
+    {
+      "last_updated": "2026-10-02T11:07:55.555203+00:00",
+      "order_count": 150038,
+      "product_name": "قرص SSD محمول",
+      "sku": "SKU-1007",
+      "total_qty_sold": 299861,
+      "total_revenue": 32913764000.0
+    },
+    {
+      "last_updated": "2026-10-02T11:07:55.555203+00:00",
+      "order_count": 150092,
+      "product_name": "سماعات رأس",
+      "sku": "SKU-1005",
+      "total_qty_sold": 299897,
+      "total_revenue": 8543530000.0
+    },
+    {
+      "last_updated": "2026-10-02T11:07:55.555203+00:00",
+      "order_count": 149837,
+      "product_name": "محول HDMI",
+      "sku": "SKU-1008",
+      "total_qty_sold": 299169,
+      "total_revenue": 2988078000.0
+    },
+    {
+      "last_updated": "2026-10-02T11:07:55.555203+00:00",
+      "order_count": 150126,
+      "product_name": "فأرة لاسلكية",
+      "sku": "SKU-1002",
+      "total_qty_sold": 300093,
+      "total_revenue": 2701083500.0
+    }
+  ],
+  "total_days_summarized": 3,
+  "total_top_products_tracked": 5
+}
