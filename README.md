@@ -1,5 +1,5 @@
-# مشروع خط البيانات الهجين (Hybrid ELT Data Pipeline)
-### معالجة وتدقيق بيانات طلبات التجارة الإلكترونية الضخمة (E-Commerce Big Data)
+# منصة هندسة ومعالجة البيانات الضخمة (Big DataOps Pipeline)
+### معالجة وتدقيق فواتير التجارة الإلكترونية الضخمة (E-Commerce DataOps Platform)
 
 ---
 

@@ -108,41 +108,41 @@ def root_dashboard():
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>منظومة البيانات الضخمة - Phase 2</title>
+        <title>منظومة رائد الأنسي لمعالجة البيانات الضخمة - Phase 2</title>
         <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800&display=swap" rel="stylesheet">
         <style>
             :root {
-                --primary: #2563eb;
-                --primary-dark: #1d4ed8;
-                --bg: #0f172a;
-                --card-bg: #1e293b;
-                --text: #f8fafc;
+                --primary: #059669;
+                --primary-dark: #047857;
+                --bg: #091413;
+                --card-bg: #112220;
+                --text: #f0fdf4;
                 --text-muted: #94a3b8;
                 --accent: #10b981;
-                --border: #334155;
+                --border: #1b3834;
             }
             * { box-sizing: border-box; margin: 0; padding: 0; font-family: 'Cairo', sans-serif; }
             body { background: var(--bg); color: var(--text); padding: 40px 20px; line-height: 1.6; }
             .container { max-width: 1100px; margin: 0 auto; }
             header { text-align: center; margin-bottom: 40px; }
-            header h1 { font-size: 2.3rem; font-weight: 800; color: #60a5fa; margin-bottom: 10px; }
+            header h1 { font-size: 2.3rem; font-weight: 800; color: #34d399; margin-bottom: 10px; }
             header p { color: var(--text-muted); font-size: 1.1rem; }
-            .badge { display: inline-block; background: #065f46; color: #34d399; padding: 4px 14px; border-radius: 9999px; font-weight: 600; font-size: 0.9rem; margin-top: 10px; }
+            .badge { display: inline-block; background: #064e3b; color: #6ee7b7; padding: 4px 14px; border-radius: 9999px; font-weight: 600; font-size: 0.9rem; margin-top: 10px; border: 1px solid #059669; }
             
             .swagger-cta {
-                background: linear-gradient(135deg, #1e40af, #3b82f6);
+                background: linear-gradient(135deg, #065f46, #0d9488);
                 border-radius: 16px;
                 padding: 30px;
                 text-align: center;
                 margin-bottom: 40px;
-                box-shadow: 0 10px 25px -5px rgba(59, 130, 246, 0.3);
+                box-shadow: 0 10px 25px -5px rgba(13, 148, 136, 0.35);
             }
             .swagger-cta h2 { font-size: 1.7rem; margin-bottom: 10px; }
-            .swagger-cta p { color: #dbeafe; margin-bottom: 20px; font-size: 1rem; }
+            .swagger-cta p { color: #ccfbf1; margin-bottom: 20px; font-size: 1rem; }
             .btn {
                 display: inline-block;
                 background: #ffffff;
-                color: #1e3a8a;
+                color: #064e3b;
                 padding: 12px 30px;
                 font-size: 1.1rem;
                 font-weight: 700;
@@ -150,7 +150,7 @@ def root_dashboard():
                 text-decoration: none;
                 transition: transform 0.2s, background 0.2s;
             }
-            .btn:hover { background: #f1f5f9; transform: translateY(-2px); }
+            .btn:hover { background: #f0fdf4; transform: translateY(-2px); }
             
             .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 20px; }
             .card {
@@ -163,10 +163,10 @@ def root_dashboard():
                 color: inherit;
                 display: block;
             }
-            .card:hover { border-color: #60a5fa; transform: translateY(-3px); }
-            .card-title { font-size: 1.25rem; font-weight: 700; margin-bottom: 8px; color: #93c5fd; display: flex; align-items: center; justify-content: space-between; }
+            .card:hover { border-color: #34d399; transform: translateY(-3px); }
+            .card-title { font-size: 1.25rem; font-weight: 700; margin-bottom: 8px; color: #6ee7b7; display: flex; align-items: center; justify-content: space-between; }
             .method { font-size: 0.75rem; padding: 2px 8px; border-radius: 6px; font-weight: 700; }
-            .method.get { background: #065f46; color: #6ee7b7; }
+            .method.get { background: #064e3b; color: #a7f3d0; }
             .method.post { background: #831843; color: #f472b6; }
             .card p { color: var(--text-muted); font-size: 0.95rem; }
             
@@ -176,8 +176,8 @@ def root_dashboard():
     <body>
         <div class="container">
             <header>
-                <h1>مشروع خط البيانات الضخمة (Big Data - Phase 2)</h1>
-                <p>بوابة التشغيل والاختبار الموحدة للمرحلة النهائية | جامعة الرازي</p>
+                <h1>منظومة رائد الأنسي لخدمات البيانات الضخمة (Phase 2 Platform)</h1>
+                <p>البوابة الموحدة لاختبار خط البيانات والاستعلامات والتجميعات | جامعة الرازي</p>
                 <span class="badge">المنظومة متصلة بنجاح بـ 26.2 مليون مستند</span>
             </header>
 

@@ -58,29 +58,29 @@ st.markdown("""
         text-align: left !important;
     }
     
-    /* بطاقات المؤشرات الفاخرة المدمجة */
+    /* بطاقات المؤشرات الفاخرة المدمجة بطابع الزمرد والتيل */
     .kpi-card {
-        background: rgba(30, 41, 59, 0.7);
-        border: 1px solid rgba(255, 255, 255, 0.1);
-        border-radius: 16px;
-        padding: 16px 12px;
+        background: rgba(15, 23, 42, 0.85);
+        border: 1px solid rgba(16, 185, 129, 0.2);
+        border-radius: 12px;
+        padding: 18px 14px;
         backdrop-filter: blur(16px);
-        box-shadow: 0 8px 25px -8px rgba(0, 0, 0, 0.5);
+        box-shadow: 0 8px 25px -8px rgba(0, 0, 0, 0.6);
         text-align: center;
         transition: all 0.25s ease;
         margin-bottom: 12px;
     }
     .kpi-card:hover {
-        transform: translateY(-3px);
-        border-color: rgba(99, 102, 241, 0.5);
-        box-shadow: 0 14px 30px -10px rgba(99, 102, 241, 0.3);
+        transform: translateY(-4px);
+        border-color: rgba(16, 185, 129, 0.6);
+        box-shadow: 0 14px 30px -10px rgba(16, 185, 129, 0.35);
     }
     
     .kpi-title {
         font-size: 0.88rem;
         color: #94a3b8;
         font-weight: 700;
-        margin-bottom: 4px;
+        margin-bottom: 6px;
         white-space: nowrap;
         overflow: hidden;
         text-overflow: ellipsis;
@@ -89,7 +89,7 @@ st.markdown("""
     .kpi-number {
         font-size: 1.65rem !important;
         font-weight: 900 !important;
-        background: linear-gradient(135deg, #38bdf8 0%, #818cf8 50%, #c084fc 100%);
+        background: linear-gradient(135deg, #10b981 0%, #14b8a6 50%, #38bdf8 100%);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         line-height: 1.25;
@@ -107,18 +107,18 @@ st.markdown("""
         text-overflow: ellipsis;
     }
 
-    /* أزرار التبويبات الفخمة */
+    /* أزرار التبويبات الفخمة بطابع التيل والزمرد */
     .stTabs [data-baseweb="tab-list"] {
-        gap: 8px;
-        background-color: rgba(15, 23, 42, 0.85);
+        gap: 10px;
+        background-color: rgba(15, 23, 42, 0.9);
         padding: 8px;
         border-radius: 14px;
-        border: 1px solid rgba(255, 255, 255, 0.08);
+        border: 1px solid rgba(16, 185, 129, 0.15);
     }
     
     .stTabs [data-baseweb="tab"] {
         border-radius: 10px;
-        padding: 8px 18px;
+        padding: 9px 20px;
         color: #94a3b8;
         font-weight: 700;
         font-size: 0.95rem;
@@ -126,9 +126,9 @@ st.markdown("""
     }
     
     .stTabs [aria-selected="true"] {
-        background: linear-gradient(135deg, #4f46e5 0%, #6366f1 100%) !important;
+        background: linear-gradient(135deg, #059669 0%, #0d9488 100%) !important;
         color: #ffffff !important;
-        box-shadow: 0 4px 15px rgba(99, 102, 241, 0.4);
+        box-shadow: 0 4px 15px rgba(13, 148, 136, 0.45);
     }
     
     .badge-status {
@@ -139,9 +139,9 @@ st.markdown("""
         font-size: 0.85rem;
     }
     .badge-pass {
-        background: rgba(34, 197, 94, 0.15);
-        color: #4ade80;
-        border: 1px solid rgba(34, 197, 94, 0.4);
+        background: rgba(16, 185, 129, 0.15);
+        color: #34d399;
+        border: 1px solid rgba(16, 185, 129, 0.4);
     }
 </style>
 """, unsafe_allow_html=True)
@@ -221,9 +221,9 @@ db = get_mongo_db()
 with st.sidebar:
     st.markdown("""
     <div style='text-align: center; padding: 10px 0;'>
-        <div style='font-size: 2.8rem;'>⚡</div>
-        <h2 style='margin: 0; font-weight: 900; background: linear-gradient(90deg, #38bdf8, #818cf8); -webkit-background-clip: text; -webkit-text-fill-color: transparent;'>منصة البيانات الضخمة</h2>
-        <p style='color: #94a3b8; font-size: 0.82rem; margin: 4px 0 0 0;'>مقرر البيانات الضخمة | جامعة الرازي</p>
+        <div style='font-size: 2.8rem;'>💎</div>
+        <h2 style='margin: 0; font-weight: 900; background: linear-gradient(90deg, #10b981, #06b6d4); -webkit-background-clip: text; -webkit-text-fill-color: transparent;'>منظومة DataOps المتكاملة</h2>
+        <p style='color: #94a3b8; font-size: 0.82rem; margin: 4px 0 0 0;'>هندسة البيانات الضخمة | جامعة الرازي</p>
     </div>
     """, unsafe_allow_html=True)
     
@@ -336,22 +336,22 @@ with st.sidebar:
 # ─── الترويسة الرئيسية العلوية ───
 st.markdown("""
 <div style='text-align: center; margin-bottom: 20px;'>
-    <h1 style='font-size: 2.3rem; font-weight: 900; background: linear-gradient(90deg, #38bdf8 0%, #818cf8 50%, #c084fc 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; margin-bottom: 4px;'>
-        منصة تحليل وتدقيق خط البيانات الضخمة الهجين
+    <h1 style='font-size: 2.3rem; font-weight: 900; background: linear-gradient(90deg, #10b981 0%, #14b8a6 50%, #38bdf8 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; margin-bottom: 4px;'>
+        مركز التحليل والمراقبة الفورية لخط البيانات الضخمة
     </h1>
     <p style='color: #94a3b8; font-size: 1.02rem; max-width: 800px; margin: 0 auto;'>
-        معالجة فواتير المتاجر الإلكترونية مع التدقيق الآلي والتحليل الموزع لـ 30 مليون سجل بـ Apache Spark
+        معالجة وتدقيق فواتير المتاجر الإلكترونية مع التحليل المتوازي لـ 30 مليون سجل بمحرك Apache Spark
     </p>
 </div>
 """, unsafe_allow_html=True)
 
 # ─── التبويبات الرئيسية الخمسة ───
 tab1, tab2, tab3, tab4, tab5 = st.tabs([
-    "📊 لوحة المراقبة اللحظية",
-    "⚡ تحليلات الـ 30 مليون سجل بـ PySpark",
-    "⚔️ مقارنة المحركين (Python vs Spark)",
-    "🛡️ مركز جودة البيانات وسلة العزل",
-    "🏗️ المعمارية ومحاكي التوجيه"
+    "📈 مركز العمليات والتدفق الحي",
+    "🚀 معالجة البيانات الضخمة (Spark Engine)",
+    "⚖️ اختبار كفاءة ومقارنة المحركات",
+    "🔍 سجل الجودة والتدقيق والعزل",
+    "🧩 هيكلية النظام وموجه المعالجة"
 ])
 
 # =============================================================================
@@ -590,7 +590,7 @@ with tab2:
                 df_cities, x='المدينة', y='عدد الطلبات',
                 title='🏙️ توزيع الـ 30 مليون طلب عبر المدن اليمنية',
                 color='عدد الطلبات',
-                color_continuous_scale='Viridis',
+                color_continuous_scale='Teal',
                 template='plotly_dark'
             )
             fig_city.update_layout(font_family="Cairo", margin=dict(l=20, r=20, t=50, b=20))
